@@ -238,6 +238,79 @@ div {
   height: 16px;
 }
 
+/* calendar_day */
+.calendar {
+  margin: auto auto 0 auto;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 1304px;
+  height: 50vh;
+
+  background-color: var(--color-neutral-10);
+
+  padding: 64px 112px;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.calendar-header {
+  font-weight: var(--weight-regular);
+  font-size: var(--font-size-display-small);
+  line-height: var(--font-height-display-small);
+
+  color: var(--color-white);
+}
+
+.calendar-bar {
+  width: 60px;
+  height: 4px;
+  background-color: var(--color-dark-primary-container);
+}
+
+.calendar_week-list,
+.calendar_day-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 1080px;
+  padding: 8px 0px;
+}
+
+.calendar_week,
+.calendar_day {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calendar_week-date,
+.calendar_day-date {
+  font-weight: var(--weight-semi-bold);
+  font-size: var(--font-size-label-large);
+  line-height: var(--font-height-label-large);
+  letter-spacing: 0.1px;
+
+  color: var(--color-neutral-70);
+}
+
+.calendar_day-match-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calendar_week-match-list {
+  display: flex;
+  gap: 12px;
+}
+
 /* hor-card */
 
 .hor-card-container {
@@ -425,11 +498,5 @@ div {
   /* identical to box height, or 150% */
   letter-spacing: 0.5px;
 
-  color: var(--color-neutral-30);
-}
-
-/* footer */
-
-.icons8-link {
   color: var(--color-neutral-30);
 }
