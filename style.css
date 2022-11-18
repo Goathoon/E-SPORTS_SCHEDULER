@@ -248,3 +248,56 @@ div {
   filter: invert(25%) sepia(13%) saturate(367%) hue-rotate(319deg)
     brightness(90%) contrast(82%);
 }
+
+/* ver-card */
+
+.ver-card-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 170px;
+  height: 160px;
+  padding: 16px;
+  gap: 4px;
+
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(105, 1, 0, 0.75);
+
+  background-color: var(--color-white);
+}
+
+.ver-card-match-container {
+  display: flex;
+
+  font-weight: var(--weight-semi-bold);
+  font-size: var(--font-size-label-large);
+  line-height: var(--font-height-label-large);
+  /* identical to box height, or 143% */
+  letter-spacing: 0.1px;
+  color: var(--color-neutral-10);
+}
+
+.ver-card-emblem {
+  width: 20px;
+  height: 20px;
+  filter: invert(18%) sepia(7%) saturate(713%) hue-rotate(320deg)
+    brightness(94%) contrast(94%);
+}
+
+.ver-card-label {
+  font-weight: var(--weight-medium);
+  font-size: var(--font-size-label-medium);
+  line-height: var(--font-height-label-medium);
+  /* identical to box height, or 133% */
+  letter-spacing: 0.5px;
+  color: var(--color-neutral-70);
+}
+
+.ver-card-time {
+  font-weight: var(--weight-regular);
+  font-size: var(--font-size-body-medium);
+  line-height: var(--font-height-body-medium);
+  /* identical to box height, or 143% */
+  letter-spacing: 0.25px;
+  color: var(--color-neutral-10);
+}
