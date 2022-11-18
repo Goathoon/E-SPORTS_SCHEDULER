@@ -301,3 +301,99 @@ div {
   letter-spacing: 0.25px;
   color: var(--color-neutral-10);
 }
+
+/* add-list */
+
+.add-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.add-list-arrow-container {
+  display: flex;
+
+  width: auto;
+}
+
+.add-list-arrow {
+  position: relative;
+  top: 2px;
+  left: 258px;
+
+  width: 22px;
+  height: 11px;
+}
+
+.add-list-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 360px;
+  padding: 24px;
+  gap: 16px;
+
+  border: 2px solid var(--color-neutral-30);
+  border-radius: 6px;
+
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark-outline);
+  background-clip: content-box;
+
+  border-radius: 16px;
+  border: 4px solid transparent;
+}
+
+.add-list-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.add-list-btn {
+  background-color: var(--color-dark-primary-container);
+  color: var(--color-white);
+
+  align-self: flex-end;
+
+  border-radius: 6px;
+  padding: 8px 12px;
+  height: 40px;
+
+  font-weight: var(--weight-bold);
+  font-size: var(--font-size-label-large);
+  line-height: var(--font-height-label-large);
+  /* identical to box height, or 171% */
+  letter-spacing: -0.01em;
+}
+
+.add-list-btn:hover {
+  cursor: pointer;
+}
+
+.add-list-label {
+  font-weight: var(--weight-semi-bold);
+  font-size: var(--font-size-title-medium);
+  line-height: var(--font-height-title-medium);
+  /* identical to box height, or 150% */
+  letter-spacing: 0.15px;
+
+  color: var(--color-neutral-10);
+}
+
+.add-list-item {
+  font-weight: var(--weight-regular);
+  font-size: var(--font-size-body-large);
+  line-height: var(--font-height-body-large);
+  /* identical to box height, or 150% */
+  letter-spacing: 0.5px;
+
+  color: var(--color-neutral-30);
+}
