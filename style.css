@@ -208,6 +208,36 @@ div {
   font-weight: var(--weight-semi-bold);
 }
 
+/* tag-bar */
+
+.tag-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+  padding: 16px 8px 16px 16px;
+}
+
+.tag-bar-list {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  gap: 16px;
+}
+
+.tag-add-btn-container {
+  background-color: var(--color-dark-primary-container);
+
+  width: 24px;
+  height: 24px;
+}
+
+.tag-add-btn-icon {
+  width: 16px;
+  height: 16px;
+}
+
 /* hor-card */
 
 .hor-card-container {
@@ -395,5 +425,11 @@ div {
   /* identical to box height, or 150% */
   letter-spacing: 0.5px;
 
+  color: var(--color-neutral-30);
+}
+
+/* footer */
+
+.icons8-link {
   color: var(--color-neutral-30);
 }
