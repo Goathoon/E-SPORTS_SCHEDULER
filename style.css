@@ -175,3 +175,35 @@ div {
   filter: invert(80%) sepia(98%) saturate(1%) hue-rotate(331deg) brightness(99%)
     contrast(101%);
 }
+
+/* tag */
+
+.tag-container {
+  display: flex;
+
+  width: fit-content;
+
+  border-radius: 4px;
+
+  background-color: var(--color-dark-primary-container);
+  color: var(--color-white);
+  align-items: center;
+}
+
+.tag-remove {
+  width: 16px;
+  height: 16px;
+
+  filter: none;
+}
+
+.tag-icon-container,
+.tag-remove-container {
+  padding: 4px;
+}
+
+.tag-label {
+  font-size: var(--font-size-label-large);
+  line-height: var(--font-height-label-large);
+  font-weight: var(--weight-semi-bold);
+}
