@@ -172,8 +172,7 @@ div {
   width: 24px;
   height: 24px;
 
-  filter: invert(80%) sepia(98%) saturate(1%) hue-rotate(331deg) brightness(99%)
-    contrast(101%);
+  filter: invert(80%) sepia(98%) saturate(1%) hue-rotate(331deg) brightness(99%) contrast(101%);
 }
 
 /* tag */
@@ -193,8 +192,13 @@ div {
 .tag-remove {
   width: 16px;
   height: 16px;
-
   filter: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.tag-remove:hover {
+  transform: translate(0, -3px);
 }
 
 .tag-icon-container,
@@ -227,10 +231,16 @@ div {
 }
 
 .tag-add-btn-container {
+  cursor: pointer;
   background-color: var(--color-dark-primary-container);
-
   width: 24px;
   height: 24px;
+  transition: 0.5s;
+}
+
+.tag-add-btn-container:hover {
+  background-color: var(--color-dark-primary);
+  transform: translate(0, -3px);
 }
 
 .tag-add-btn-icon {
@@ -348,8 +358,7 @@ div {
 }
 
 .hor-card-emblem {
-  filter: invert(25%) sepia(13%) saturate(367%) hue-rotate(319deg)
-    brightness(90%) contrast(82%);
+  filter: invert(25%) sepia(13%) saturate(367%) hue-rotate(319deg) brightness(90%) contrast(82%);
 }
 
 /* ver-card */
@@ -383,8 +392,7 @@ div {
 .ver-card-emblem {
   width: 20px;
   height: 20px;
-  filter: invert(18%) sepia(7%) saturate(713%) hue-rotate(320deg)
-    brightness(94%) contrast(94%);
+  filter: invert(18%) sepia(7%) saturate(713%) hue-rotate(320deg) brightness(94%) contrast(94%);
 }
 
 .ver-card-label {
@@ -431,6 +439,9 @@ div {
 .add-list-list-container {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  top: 480px;
+  right: 0;
   width: 320px;
   height: 360px;
   padding: 24px;
