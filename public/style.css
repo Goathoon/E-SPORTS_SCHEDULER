@@ -440,13 +440,13 @@ div {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 480px;
+  top: 430px;
   right: 0;
   width: 320px;
   height: 360px;
   padding: 24px;
   gap: 16px;
-
+  background-color: white;
   border: 2px solid var(--color-neutral-30);
   border-radius: 6px;
 
@@ -472,6 +472,7 @@ div {
 }
 
 .add-list-btn {
+  cursor: pointer;
   background-color: var(--color-dark-primary-container);
   color: var(--color-white);
 
@@ -486,10 +487,12 @@ div {
   line-height: var(--font-height-label-large);
   /* identical to box height, or 171% */
   letter-spacing: -0.01em;
+  transition: 0.5s;
 }
 
 .add-list-btn:hover {
-  cursor: pointer;
+  box-shadow: 3px 3px 3px 1px grey;
+  transform: translate(0, -3px);
 }
 
 .add-list-label {
