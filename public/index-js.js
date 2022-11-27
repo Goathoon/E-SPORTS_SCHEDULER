@@ -29,7 +29,6 @@ addbtn.addEventListener('click', () => {
                 script_tag.insertAdjacentElement('beforebegin', add_container[0]);
                 addbtn.children[0].src = './asset/Arrow.svg';
                 const checkboxes = document.getElementsByClassName('add-list-item-checkbox');
-                console.log(checkboxes);
                 for (let i = 0; i < checkboxes.length; i++) {
                     if (filter_arr) {
                         for (let j = 0; j < filter_arr.length - 1; j++) {
@@ -62,4 +61,15 @@ addbtn.addEventListener('click', () => {
         });
 });
 
+//주간 달력, 일간 달력 클릭 이벤트 발생
+//초기화면을 무엇으로 할지 생각해주세요. 일단 초기화면은 일간 일정으로 정했습니다.
+const toggleDayWeek = document.querySelector('.mode');
+toggleDayWeek.addEventListener('click', () => {
+    const dayCalendar = document.querySelector('.calendar_day-list');
+    const weekCalendar = document.querySelector('.calendar_week-list');
+    console.log(dayCalendar);
+    console.log(weekCalendar);
+    dayCalendar.classList.toggle('act');
+    weekCalendar.classList.toggle('act');
+})
 
