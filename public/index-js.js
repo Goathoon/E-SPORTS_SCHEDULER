@@ -2,7 +2,7 @@
 const parser = new DOMParser();
 
 
-//게임 필터 add button
+//게임 필터 add button 및 필터효과 추가
 const addbtn = document.querySelector('.tag-add-btn-container');
 addbtn.addEventListener('click', () => {
     fetch('./components.html', { method: 'GET' })
@@ -20,16 +20,25 @@ addbtn.addEventListener('click', () => {
                 addbtn.children[0].src = './asset/add.svg';
             }
             else {
+                let filter_arr;
                 if (localStorage.getItem("checked")) {
                     filterString = localStorage.getItem("checked");
-                    const filter_arr = filterString.split('?');
-                    console.log(filter_arr);
+                    filter_arr = filterString.split('?');
                 }
-                const checkboxes = document.getElementsByClassName('add-list-item-checkbox');
-                console.log(checkboxes);
                 const script_tag = document.querySelector('script');
                 script_tag.insertAdjacentElement('beforebegin', add_container[0]);
                 addbtn.children[0].src = './asset/Arrow.svg';
+                const checkboxes = document.getElementsByClassName('add-list-item-checkbox');
+                console.log(checkboxes);
+                for (let i = 0; i < checkboxes.length; i++) {
+                    if (filter_arr) {
+                        for (let j = 0; j < filter_arr.length - 1; j++) {
+                            if (checkboxes[i].value == filter_arr[j]) {
+                                checkboxes[i].checked = "True";
+                            }
+                        }
+                    }
+                }
             }
             const addFilter = document.querySelector('.add-list-btn');
             addFilter.addEventListener('click', () => {
@@ -40,11 +49,12 @@ addbtn.addEventListener('click', () => {
                         // 해당 value들을 arr에 저장함으로써 filter 기능 구현.
                         if (!(filterString.includes(checkboxes[i].value))) { //중복 필터 제거
                             filterString += checkboxes[i].value + "?";
-                            localStorage.setItem("", filterString);
+                            localStorage.setItem("checked", filterString);
+                            //-----------아래는 예시 코드----------------//
+                            // localStorage.setItem("checked", filterString + "MSI?");
                         }
                     }
                 }
-                console.log('click');
                 const dom_remove = document.querySelector('.add-list-list-container');
                 dom_remove.remove();
                 addbtn.children[0].src = './asset/add.svg';
