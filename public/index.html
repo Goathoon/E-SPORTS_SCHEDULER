@@ -1,130 +1,196 @@
 <!DOCTYPE html>
 <html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>OSSP5_E-SPORTS</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <title>OSSP5_E-SPORTS</title>
-
-</head>
-
-<body>
-    <section class="banner">
-        <div class="banner-container">
-            <video autoplay="autoplay" loop="loop" preload="auto" class="banner-video">
-                <source src="./asset/Pexels Videos 2759479.mp4" type="video/mp4" />
-            </video>
-            <div class="banner-title">THE E-SPORTS YOU WANT.</div>
-        </div>
-    </section>
-
-    <section class="tag-bar">
-        <div class="tag-bar-container">
-            <div class="mode">
-                <div class="mode-icon-container icon-container">
-                    <img class="mode-icon icon" src="./asset/calendar_view_day.svg" alt="icon" />
-                </div>
+    <body>
+        <section class="banner">
+            <div class="banner-container">
+                <video
+                    muted
+                    autoplay="autoplay"
+                    loop="loop"
+                    preload="auto"
+                    class="banner-video"
+                >
+                    <source
+                        src="./asset/Pexels Videos 2759479.mp4"
+                        type="video/mp4"
+                    />
+                </video>
+                <div class="banner-title">THE E-SPORTS YOU WANT.</div>
             </div>
-            <div class="tag-bar-list">
-                <div class="tag">
-                    <div class="tag-container">
-                        <div class="tag-icon-container icon-container">
-                            <img src="./asset/icons8-league-of-legends.svg" alt="tag-icon" class="tag-icon icon" />
-                        </div>
-                        <div class="tag-label">League of Legends</div>
-                        <div class="tag-remove-container icon-container">
-                            <img src="./asset/close.svg" alt="tag-remove" class="tag-remove icon" />
-                        </div>
+        </section>
+
+        <section class="tag-bar">
+            <div class="tag-bar-container">
+                <div class="mode">
+                    <div class="mode-icon-container icon-container">
+                        <img
+                            class="mode-icon icon"
+                            src="./asset/calendar_view_day.svg"
+                            alt="icon"
+                        />
                     </div>
                 </div>
-                <div class="tag-add-btn-container icon-container">
-                    <img class="tag-add-btn-icon icon" src="./asset/add.svg" alt="icon" />
+                <div class="tag-bar-list">
+                    <div class="tag">
+                        <div class="tag-container">
+                            <div class="tag-icon-container icon-container">
+                                <img
+                                    src="./asset/icons8-league-of-legends.svg"
+                                    alt="tag-icon"
+                                    class="tag-icon icon"
+                                />
+                            </div>
+                            <div class="tag-label">League of Legends</div>
+                            <div class="tag-remove-container icon-container">
+                                <img
+                                    src="./asset/close.svg"
+                                    alt="tag-remove"
+                                    class="tag-remove icon"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag-add-btn-container icon-container">
+                        <img
+                            class="tag-add-btn-icon icon"
+                            src="./asset/add.svg"
+                            alt="icon"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <content class="calendar">
-        <div class="calendar-container">
-            <div class="calendar-header">경기 일정</div>
-            <div class="calendar-bar"></div>
-            <div class="calendar_day-list">
-                <div class="calendar_day">
-                    <div class="calendar_day-date">11월 7일 (월)</div>
-                    <div class="calendar_day-match-list">
-                        <div class="hor-card">
-                            <div class="hor-card-container">
-                                <div class="hor-card-time">09:00-11:00</div>
-                                <div class="hor-card-match-container">
-                                    <div id="hor-card-team_1-name" class="hor-card-name">
-                                        T1
+        </section>
+        <content class="calendar">
+            <div class="calendar-container">
+                <div class="calendar-header">경기 일정</div>
+                <div class="calendar-bar"></div>
+                <div class="calendar_day-list">
+                    <div class="calendar_day">
+                        <div class="calendar_day-date">11월 7일 (월)</div>
+                        <div class="calendar_day-match-list">
+                            <div class="hor-card">
+                                <div class="hor-card-container">
+                                    <div class="hor-card-time">09:00-11:00</div>
+                                    <div class="hor-card-match-container">
+                                        <div
+                                            id="hor-card-team_1-name"
+                                            class="hor-card-name"
+                                        >
+                                            T1
+                                        </div>
+                                        <div
+                                            id="hor-card-team_1-embelm-container"
+                                            class="hor-card-embelm-container icon-container"
+                                        >
+                                            <img
+                                                src="./asset/close.svg"
+                                                alt="hor-card-team_1-embelm"
+                                                id="hor-card-team_1-embelm"
+                                                class="hor-card-emblem icon"
+                                            />
+                                        </div>
+                                        <div class="hor-card-vs">VS</div>
+                                        <div
+                                            id="hor-card-team_2-emblem-container icon-container"
+                                            class="hor-card-emblem-container icon-container"
+                                        >
+                                            <img
+                                                src="./asset/close.svg"
+                                                alt="hor-card-team_2-emblem"
+                                                id="hor-card-team_2-emblem"
+                                                class="hor-card-emblem icon"
+                                            />
+                                        </div>
+                                        <div
+                                            id="hor-card-team_2-name"
+                                            class="hor-card-name"
+                                        >
+                                            DRX
+                                        </div>
                                     </div>
-                                    <div id="hor-card-team_1-embelm-container"
-                                        class="hor-card-embelm-container icon-container">
-                                        <img src="./asset/close.svg" alt="hor-card-team_1-embelm"
-                                            id="hor-card-team_1-embelm" class="hor-card-emblem icon" />
-                                    </div>
-                                    <div class="hor-card-vs">VS</div>
-                                    <div id="hor-card-team_2-emblem-container icon-container"
-                                        class="hor-card-emblem-container icon-container">
-                                        <img src="./asset/close.svg" alt="hor-card-team_2-emblem"
-                                            id="hor-card-team_2-emblem" class="hor-card-emblem icon" />
-                                    </div>
-                                    <div id="hor-card-team_2-name" class="hor-card-name">
-                                        DRX
-                                    </div>
+                                    <div class="hor-card-status">예정</div>
                                 </div>
-                                <div class="hor-card-status">예정</div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- 초기화면을 일간 일정을 먼저 보여주는 것으로 임의 설정하였습니다.
+                <!-- 초기화면을 일간 일정을 먼저 보여주는 것으로 임의 설정하였습니다.
             추가적으로 footer 설정 fixed로 하시면 좋을 것 같아요-->
-            <div class="calendar_week-list act">
-                <div class="calendar_week">
-                    <div class="calendar_week-date">11월 첫째주</div>
-                    <div class="calendar_week-match-list">
-                        <div class="ver-card">
-                            <div class="ver-card-container">
-                                <div class="ver-card-match-container">
-                                    <div id="ver-card-team_1-name" class="ver-card-name">
-                                        T1
+                <div class="calendar_week-list act">
+                    <div class="calendar_week">
+                        <div class="calendar_week-date">11월 첫째주</div>
+                        <div class="calendar_week-match-list">
+                            <div class="ver-card">
+                                <div class="ver-card-container">
+                                    <div class="ver-card-match-container">
+                                        <div
+                                            id="ver-card-team_1-name"
+                                            class="ver-card-name"
+                                        >
+                                            T1
+                                        </div>
+                                        <div
+                                            id="ver-card-team_1-emblem-container"
+                                            class="ver-card-emblem-container"
+                                        >
+                                            <img
+                                                src="./asset/close.svg"
+                                                alt="ver-card-team_1-emblem"
+                                                id="ver-card-team_1-emblem"
+                                                class="ver-card-emblem icon"
+                                            />
+                                        </div>
+                                        <div class="ver-card-vs">VS</div>
+                                        <div
+                                            id="ver-card-team_2-emblem-container"
+                                            class="ver-card-emblem-container"
+                                        >
+                                            <img
+                                                src="./asset/close.svg"
+                                                alt="ver-card-team_2-emblem"
+                                                id="ver-card-team_2-emblem"
+                                                class="ver-card-emblem icon"
+                                            />
+                                        </div>
+                                        <div
+                                            id="ver-car d-team_2-name"
+                                            class="ver-card-name"
+                                        >
+                                            DRX
+                                        </div>
                                     </div>
-                                    <div id="ver-card-team_1-emblem-container" class="ver-card-emblem-container">
-                                        <img src="./asset/close.svg" alt="ver-card-team_1-emblem"
-                                            id="ver-card-team_1-emblem" class="ver-card-emblem icon" />
+                                    <div class="ver-card-label">
+                                        League of Legneds
                                     </div>
-                                    <div class="ver-card-vs">VS</div>
-                                    <div id="ver-card-team_2-emblem-container" class="ver-card-emblem-container">
-                                        <img src="./asset/close.svg" alt="ver-card-team_2-emblem"
-                                            id="ver-card-team_2-emblem" class="ver-card-emblem icon" />
+                                    <div class="ver-card-time">
+                                        11월 5일 (토) <br />
+                                        09:00 - 11:00
                                     </div>
-                                    <div id="ver-car d-team_2-name" class="ver-card-name">
-                                        DRX
-                                    </div>
-                                </div>
-                                <div class="ver-card-label">League of Legneds</div>
-                                <div class="ver-card-time">
-                                    11월 5일 (토) <br />
-                                    09:00 - 11:00
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <footer>
+                    <a class="icons8-link" href="https://icons8.com/license"
+                        >icons from icons8</a
+                    >
+                </footer>
             </div>
-            <footer>
-                <a class="icons8-link" href="https://icons8.com/license">icons from icons8</a>
-            </footer>
-        </div>
-    </content>
-    <script type='module' src="./index-js.js"></script>
-</body>
-
+        </content>
+        <script type="module" src="./index-js.js"></script>
+    </body>
 </html>
