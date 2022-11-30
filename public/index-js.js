@@ -17,7 +17,7 @@ addbtn.addEventListener("click", () => {
             //(추가하는 컴포넌트가 렌더링된 상태일 때) addbtn의 이미지를 변경하는 조건문;
             const make_src = addbtn.children[0].src.split("/").slice(-1); //path를 불러오기 빡세서 배열로 만들고 그냥 강제로 불러왔습니다.
             let filterString = "";
-            if (make_src[0] === "Arrow.svg") {
+            if (make_src[0] === "remove.svg") {
                 const dom_remove = document.querySelector(
                     ".add-list-list-container"
                 );
@@ -85,4 +85,13 @@ toggleDayWeek.addEventListener("click", () => {
     console.log(weekCalendar);
     dayCalendar.classList.toggle("act");
     weekCalendar.classList.toggle("act");
+    const iconImage = toggleDayWeek.children[0].children[0];
+    const make_iconsrc = iconImage.src.split("/").slice(-1);
+    console.log(make_iconsrc);
+    if (make_iconsrc[0] === "calendar_view_week.svg") {
+        iconImage.src = "./asset/calendar_view_day.svg"
+    }
+    else {
+        iconImage.src = "./asset/calendar_view_week.svg";
+    }
 });
