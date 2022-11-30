@@ -63,13 +63,18 @@ addbtn.addEventListener('click', () => {
 
 //주간 달력, 일간 달력 클릭 이벤트 발생
 //초기화면을 무엇으로 할지 생각해주세요. 일단 초기화면은 일간 일정으로 정했습니다.
-const toggleDayWeek = document.querySelector('.mode');
-toggleDayWeek.addEventListener('click', () => {
-    const dayCalendar = document.querySelector('.calendar_day-list');
-    const weekCalendar = document.querySelector('.calendar_week-list');
-    console.log(dayCalendar);
-    console.log(weekCalendar);
-    dayCalendar.classList.toggle('act');
-    weekCalendar.classList.toggle('act');
-})
-
+const toggleDayWeek = document.querySelector(".mode");
+toggleDayWeek.addEventListener("click", () => {
+    const dayCalendar = document.querySelector(".calendar_day-list");
+    const weekCalendar = document.querySelector(".calendar_week-list");
+    dayCalendar.classList.toggle("act");
+    weekCalendar.classList.toggle("act");
+    const iconImage = toggleDayWeek.children[0].children[0];
+    const make_iconsrc = iconImage.src.split("/").slice(-1);
+    if (make_iconsrc[0] === "calendar_view_week.svg") {
+        iconImage.src = "./asset/calendar_view_day.svg"
+    }
+    else {
+        iconImage.src = "./asset/calendar_view_week.svg";
+    }
+});
