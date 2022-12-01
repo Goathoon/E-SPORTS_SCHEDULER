@@ -14,15 +14,15 @@ https.get(
         res.on("data", (chunk) => {
             data += chunk;
         });
-        console.log(data)
         res.on("end", () => {
             const root = parser.parse(data)
-            console.log(root)
-            const list = root.querySelectorAll("#civ")
-            console.log(list)
+            const list = root.querySelectorAll("#__NEXT_DATA__")
             list.forEach((item) => {
-                console.log(item.innerText.trim())
+                schedule_json = item.innerText.trim()
             })
+
+            schedule_json = JSON.parse(schedule_json)
+            console.log(schedule_json.props.initialState.schedule.monthSchedule[0].schedules)
         })
     }
 )
