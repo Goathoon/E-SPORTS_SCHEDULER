@@ -33,12 +33,13 @@ https.get(
             for (i = 0; i < monthly_schedule_list.length; i++) {
                 let daily_schedule = monthly_schedule_list[i].schedules
                 var dailyList = new Array()
+                var dailyDate = ""
 
                 for (j = 0; j < daily_schedule.length; j++) {
                     var daily_data = new Object()
                     let detail = daily_schedule[j]
 
-                    daily_data.date = detail.date
+                    dailyDate = detail.date
                     daily_data.time = detail.time
                     daily_data.homeTeam = detail.homeTeam.name
                     daily_data.awayTeam = detail.awayTeam.name
@@ -48,6 +49,7 @@ https.get(
 
                 var monthly_data = new Object()
 
+                monthly_data.date = dailyDate
                 monthly_data.dayGame = dailyList
 
                 monthList.push(monthly_data)

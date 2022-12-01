@@ -1,51 +1,44 @@
 {
     "monthGame": [
         {
+            "date": "10월 01일 (토)",
             "dayGame": [
                 {
-                    "date": "10월 01일 (토)",
                     "time": "05:00",
                     "homeTeam": "Fnatic",
                     "awayTeam": "DetonatioN FocusMe"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "06:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "LOUD"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "07:00",
                     "homeTeam": "Saigon Buffalo",
                     "awayTeam": "Isurus Gaming"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "08:00",
                     "homeTeam": "DetonatioN FocusMe",
                     "awayTeam": "Chiefs Esports Club"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "09:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "Beyond Gaming"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "10:00",
                     "homeTeam": "DRX",
                     "awayTeam": "Saigon Buffalo"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "11:00",
                     "homeTeam": "MAD Lions",
                     "awayTeam": "Royal Never Give Up"
                 },
                 {
-                    "date": "10월 01일 (토)",
                     "time": "12:00",
                     "homeTeam": "istanbul Wildcats",
                     "awayTeam": "DRX"
@@ -53,51 +46,44 @@
             ]
         },
         {
+            "date": "10월 02일 (일)",
             "dayGame": [
                 {
-                    "date": "10월 02일 (일)",
                     "time": "05:00",
                     "homeTeam": "LOUD",
                     "awayTeam": "Fnatic"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "06:00",
                     "homeTeam": "MAD Lions",
                     "awayTeam": "Saigon Buffalo"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "07:00",
                     "homeTeam": "Beyond Gaming",
                     "awayTeam": "DetonatioN FocusMe"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "08:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "Chiefs Esports Club"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "09:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "Isurus Gaming"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "10:00",
                     "homeTeam": "Chiefs Esports Club",
                     "awayTeam": "Beyond Gaming"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "11:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "istanbul Wildcats"
                 },
                 {
-                    "date": "10월 02일 (일)",
                     "time": "12:00",
                     "homeTeam": "Isurus Gaming",
                     "awayTeam": "DRX"
@@ -105,51 +91,44 @@
             ]
         },
         {
+            "date": "10월 03일 (월)",
             "dayGame": [
                 {
-                    "date": "10월 03일 (월)",
                     "time": "05:00",
                     "homeTeam": "Beyond Gaming",
                     "awayTeam": "Fnatic"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "06:00",
                     "homeTeam": "LOUD",
                     "awayTeam": "Chiefs Esports Club"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "07:00",
                     "homeTeam": "DetonatioN FocusMe",
                     "awayTeam": "Evil Geniuses"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "08:00",
                     "homeTeam": "istanbul Wildcats",
                     "awayTeam": "Isurus Gaming"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "09:00",
                     "homeTeam": "DRX",
                     "awayTeam": "MAD Lions"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "10:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "Saigon Buffalo"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "11:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "DetonatioN FocusMe"
                 },
                 {
-                    "date": "10월 03일 (월)",
                     "time": "12:00",
                     "homeTeam": "LOUD",
                     "awayTeam": "Evil Geniuses"
@@ -157,15 +136,14 @@
             ]
         },
         {
+            "date": "10월 04일 (화)",
             "dayGame": [
                 {
-                    "date": "10월 04일 (화)",
                     "time": "03:00",
                     "homeTeam": "Saigon Buffalo",
                     "awayTeam": "MAD Lions"
                 },
                 {
-                    "date": "10월 04일 (화)",
                     "time": "08:00",
                     "homeTeam": "LOUD",
                     "awayTeam": "DetonatioN FocusMe"
@@ -173,15 +151,14 @@
             ]
         },
         {
+            "date": "10월 05일 (수)",
             "dayGame": [
                 {
-                    "date": "10월 05일 (수)",
                     "time": "03:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "MAD Lions"
                 },
                 {
-                    "date": "10월 05일 (수)",
                     "time": "08:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "DetonatioN FocusMe"
@@ -189,39 +166,34 @@
             ]
         },
         {
+            "date": "10월 08일 (토)",
             "dayGame": [
                 {
-                    "date": "10월 08일 (토)",
                     "time": "06:00",
                     "homeTeam": "Cloud9",
                     "awayTeam": "Fnatic"
                 },
                 {
-                    "date": "10월 08일 (토)",
                     "time": "07:00",
                     "homeTeam": "G2 Esports",
                     "awayTeam": "담원 기아"
                 },
                 {
-                    "date": "10월 08일 (토)",
                     "time": "08:00",
                     "homeTeam": "CTBC Flying Oyster",
                     "awayTeam": "100 Thieves"
                 },
                 {
-                    "date": "10월 08일 (토)",
                     "time": "09:00",
                     "homeTeam": "JD Gaming",
                     "awayTeam": "Evil Geniuses"
                 },
                 {
-                    "date": "10월 08일 (토)",
                     "time": "10:00",
                     "homeTeam": "T1",
                     "awayTeam": "Edward Gaming"
                 },
                 {
-                    "date": "10월 08일 (토)",
                     "time": "11:00",
                     "homeTeam": "젠지",
                     "awayTeam": "Royal Never Give Up"
@@ -229,39 +201,34 @@
             ]
         },
         {
+            "date": "10월 09일 (일)",
             "dayGame": [
                 {
-                    "date": "10월 09일 (일)",
                     "time": "06:00",
                     "homeTeam": "Rogue",
                     "awayTeam": "DRX"
                 },
                 {
-                    "date": "10월 09일 (일)",
                     "time": "07:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "G2 Esports"
                 },
                 {
-                    "date": "10월 09일 (일)",
                     "time": "08:00",
                     "homeTeam": "Fnatic",
                     "awayTeam": "T1"
                 },
                 {
-                    "date": "10월 09일 (일)",
                     "time": "09:00",
                     "homeTeam": "Edward Gaming",
                     "awayTeam": "Cloud9"
                 },
                 {
-                    "date": "10월 09일 (일)",
                     "time": "10:00",
                     "homeTeam": "Top Esports",
                     "awayTeam": "GAM eSports"
                 },
                 {
-                    "date": "10월 09일 (일)",
                     "time": "11:00",
                     "homeTeam": "담원 기아",
                     "awayTeam": "JD Gaming"
@@ -269,39 +236,34 @@
             ]
         },
         {
+            "date": "10월 10일 (월)",
             "dayGame": [
                 {
-                    "date": "10월 10일 (월)",
                     "time": "06:00",
                     "homeTeam": "GAM eSports",
                     "awayTeam": "Rogue"
                 },
                 {
-                    "date": "10월 10일 (월)",
                     "time": "07:00",
                     "homeTeam": "100 Thieves",
                     "awayTeam": "젠지"
                 },
                 {
-                    "date": "10월 10일 (월)",
                     "time": "08:00",
                     "homeTeam": "Edward Gaming",
                     "awayTeam": "Fnatic"
                 },
                 {
-                    "date": "10월 10일 (월)",
                     "time": "09:00",
                     "homeTeam": "Cloud9",
                     "awayTeam": "T1"
                 },
                 {
-                    "date": "10월 10일 (월)",
                     "time": "10:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "CTBC Flying Oyster"
                 },
                 {
-                    "date": "10월 10일 (월)",
                     "time": "11:00",
                     "homeTeam": "DRX",
                     "awayTeam": "Top Esports"
@@ -309,39 +271,34 @@
             ]
         },
         {
+            "date": "10월 11일 (화)",
             "dayGame": [
                 {
-                    "date": "10월 11일 (화)",
                     "time": "06:00",
                     "homeTeam": "JD Gaming",
                     "awayTeam": "G2 Esports"
                 },
                 {
-                    "date": "10월 11일 (화)",
                     "time": "07:00",
                     "homeTeam": "Rogue",
                     "awayTeam": "Top Esports"
                 },
                 {
-                    "date": "10월 11일 (화)",
                     "time": "08:00",
                     "homeTeam": "담원 기아",
                     "awayTeam": "Evil Geniuses"
                 },
                 {
-                    "date": "10월 11일 (화)",
                     "time": "09:00",
                     "homeTeam": "100 Thieves",
                     "awayTeam": "Royal Never Give Up"
                 },
                 {
-                    "date": "10월 11일 (화)",
                     "time": "10:00",
                     "homeTeam": "젠지",
                     "awayTeam": "CTBC Flying Oyster"
                 },
                 {
-                    "date": "10월 11일 (화)",
                     "time": "11:00",
                     "homeTeam": "GAM eSports",
                     "awayTeam": "DRX"
@@ -349,39 +306,34 @@
             ]
         },
         {
+            "date": "10월 14일 (금)",
             "dayGame": [
                 {
-                    "date": "10월 14일 (금)",
                     "time": "04:00",
                     "homeTeam": "Fnatic",
                     "awayTeam": "Cloud9"
                 },
                 {
-                    "date": "10월 14일 (금)",
                     "time": "05:00",
                     "homeTeam": "T1",
                     "awayTeam": "Fnatic"
                 },
                 {
-                    "date": "10월 14일 (금)",
                     "time": "06:00",
                     "homeTeam": "Cloud9",
                     "awayTeam": "Edward Gaming"
                 },
                 {
-                    "date": "10월 14일 (금)",
                     "time": "07:00",
                     "homeTeam": "Fnatic",
                     "awayTeam": "Edward Gaming"
                 },
                 {
-                    "date": "10월 14일 (금)",
                     "time": "08:00",
                     "homeTeam": "T1",
                     "awayTeam": "Cloud9"
                 },
                 {
-                    "date": "10월 14일 (금)",
                     "time": "09:00",
                     "homeTeam": "Edward Gaming",
                     "awayTeam": "T1"
@@ -389,45 +341,39 @@
             ]
         },
         {
+            "date": "10월 15일 (토)",
             "dayGame": [
                 {
-                    "date": "10월 15일 (토)",
                     "time": "04:00",
                     "homeTeam": "G2 Esports",
                     "awayTeam": "Evil Geniuses"
                 },
                 {
-                    "date": "10월 15일 (토)",
                     "time": "05:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "JD Gaming"
                 },
                 {
-                    "date": "10월 15일 (토)",
                     "time": "06:00",
                     "homeTeam": "담원 기아",
                     "awayTeam": "G2 Esports"
                 },
                 {
-                    "date": "10월 15일 (토)",
                     "time": "07:00",
                     "homeTeam": "G2 Esports",
                     "awayTeam": "JD Gaming"
                 },
                 {
-                    "date": "10월 15일 (토)",
                     "time": "08:00",
                     "homeTeam": "Evil Geniuses",
                     "awayTeam": "담원 기아"
                 },
                 {
-                    "date": "10월 15일 (토)",
                     "time": "09:00",
                     "homeTeam": "JD Gaming",
                     "awayTeam": "담원 기아"
                 },
                 {
-                    "date": "10월 15일 (토)",
                     "time": "10:00",
                     "homeTeam": "담원 기아",
                     "awayTeam": "JD Gaming"
@@ -435,45 +381,39 @@
             ]
         },
         {
+            "date": "10월 16일 (일)",
             "dayGame": [
                 {
-                    "date": "10월 16일 (일)",
                     "time": "04:00",
                     "homeTeam": "Rogue",
                     "awayTeam": "GAM eSports"
                 },
                 {
-                    "date": "10월 16일 (일)",
                     "time": "05:00",
                     "homeTeam": "GAM eSports",
                     "awayTeam": "Top Esports"
                 },
                 {
-                    "date": "10월 16일 (일)",
                     "time": "06:00",
                     "homeTeam": "DRX",
                     "awayTeam": "Rogue"
                 },
                 {
-                    "date": "10월 16일 (일)",
                     "time": "07:00",
                     "homeTeam": "DRX",
                     "awayTeam": "GAM eSports"
                 },
                 {
-                    "date": "10월 16일 (일)",
                     "time": "08:00",
                     "homeTeam": "Top Esports",
                     "awayTeam": "Rogue"
                 },
                 {
-                    "date": "10월 16일 (일)",
                     "time": "09:00",
                     "homeTeam": "Top Esports",
                     "awayTeam": "DRX"
                 },
                 {
-                    "date": "10월 16일 (일)",
                     "time": "10:00",
                     "homeTeam": "DRX",
                     "awayTeam": "Rogue"
@@ -481,45 +421,39 @@
             ]
         },
         {
+            "date": "10월 17일 (월)",
             "dayGame": [
                 {
-                    "date": "10월 17일 (월)",
                     "time": "04:00",
                     "homeTeam": "100 Thieves",
                     "awayTeam": "CTBC Flying Oyster"
                 },
                 {
-                    "date": "10월 17일 (월)",
                     "time": "05:00",
                     "homeTeam": "CTBC Flying Oyster",
                     "awayTeam": "젠지"
                 },
                 {
-                    "date": "10월 17일 (월)",
                     "time": "06:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "100 Thieves"
                 },
                 {
-                    "date": "10월 17일 (월)",
                     "time": "07:00",
                     "homeTeam": "젠지",
                     "awayTeam": "100 Thieves"
                 },
                 {
-                    "date": "10월 17일 (월)",
                     "time": "08:00",
                     "homeTeam": "CTBC Flying Oyster",
                     "awayTeam": "Royal Never Give Up"
                 },
                 {
-                    "date": "10월 17일 (월)",
                     "time": "09:00",
                     "homeTeam": "Royal Never Give Up",
                     "awayTeam": "젠지"
                 },
                 {
-                    "date": "10월 17일 (월)",
                     "time": "10:00",
                     "homeTeam": "젠지",
                     "awayTeam": "Royal Never Give Up"
@@ -527,9 +461,9 @@
             ]
         },
         {
+            "date": "10월 21일 (금)",
             "dayGame": [
                 {
-                    "date": "10월 21일 (금)",
                     "time": "06:00",
                     "homeTeam": "JD Gaming",
                     "awayTeam": "Rogue"
@@ -537,9 +471,9 @@
             ]
         },
         {
+            "date": "10월 22일 (토)",
             "dayGame": [
                 {
-                    "date": "10월 22일 (토)",
                     "time": "06:00",
                     "homeTeam": "T1",
                     "awayTeam": "Royal Never Give Up"
@@ -547,9 +481,9 @@
             ]
         },
         {
+            "date": "10월 23일 (일)",
             "dayGame": [
                 {
-                    "date": "10월 23일 (일)",
                     "time": "06:00",
                     "homeTeam": "젠지",
                     "awayTeam": "담원 기아"
@@ -557,9 +491,9 @@
             ]
         },
         {
+            "date": "10월 24일 (월)",
             "dayGame": [
                 {
-                    "date": "10월 24일 (월)",
                     "time": "06:00",
                     "homeTeam": "DRX",
                     "awayTeam": "Edward Gaming"
@@ -567,9 +501,9 @@
             ]
         },
         {
+            "date": "10월 30일 (일)",
             "dayGame": [
                 {
-                    "date": "10월 30일 (일)",
                     "time": "06:00",
                     "homeTeam": "JD Gaming",
                     "awayTeam": "T1"
@@ -577,9 +511,9 @@
             ]
         },
         {
+            "date": "10월 31일 (월)",
             "dayGame": [
                 {
-                    "date": "10월 31일 (월)",
                     "time": "06:00",
                     "homeTeam": "젠지",
                     "awayTeam": "DRX"
