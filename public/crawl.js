@@ -24,12 +24,16 @@ https.get(
             })
 
             schedule_json = JSON.parse(schedule_json)
-            schedule_list = schedule_json.props.initialState.schedule.monthSchedule
+            monthly_schedule_list = schedule_json.props.initialState.schedule.monthSchedule
 
-            for (i = 0; i < schedule_list.length; i++) {
-                let detail = schedule_list[i].schedules[0]
-                let track = detail.date + " " + detail.time + " " + detail.homeTeam.name + " " + detail.awayTeam.name
-                console.log(track)
+            for (i = 0; i < monthly_schedule_list.length; i++) {
+                let daily_schedule = monthly_schedule_list[i].schedules
+
+                for (j = 0; j < daily_schedule.length; j++) {
+                    let detail = daily_schedule[j]
+                    let track = detail.date + " " + detail.time + " " + detail.homeTeam.name + " " + detail.awayTeam.name
+                    console.log(track)
+                }
             }
         })
     }
