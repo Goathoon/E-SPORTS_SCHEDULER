@@ -93,5 +93,6 @@ toggleDayWeek.addEventListener("click", () => {
     }
     else {
         iconImage.src = "./asset/calendar_view_week.svg";
+        console.log('here');
     }
 });
