@@ -181,7 +181,8 @@ div {
     width: 24px;
     height: 24px;
 
-    filter: invert(80%) sepia(98%) saturate(1%) hue-rotate(331deg) brightness(99%) contrast(101%);
+    filter: invert(80%) sepia(98%) saturate(1%) hue-rotate(331deg)
+        brightness(99%) contrast(101%);
 }
 
 /* tag */
@@ -263,6 +264,7 @@ div {
 }
 
 .calendar-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -292,8 +294,6 @@ div {
     background-color: var(--color-dark-primary-container);
 }
 
-
-
 .calendar_week-list,
 .calendar_day-list {
     display: flex;
@@ -306,7 +306,6 @@ div {
 .act {
     display: none;
 }
-
 
 .calendar_week,
 .calendar_day {
@@ -373,7 +372,8 @@ div {
 }
 
 .hor-card-emblem {
-    filter: invert(25%) sepia(13%) saturate(367%) hue-rotate(319deg) brightness(90%) contrast(82%);
+    filter: invert(25%) sepia(13%) saturate(367%) hue-rotate(319deg)
+        brightness(90%) contrast(82%);
 }
 
 /* ver-card */
@@ -389,7 +389,6 @@ div {
     gap: 4px;
 
     border-radius: 8px;
-
 
     background-color: var(--color-white);
 }
@@ -414,7 +413,8 @@ div {
 .ver-card-emblem {
     width: 20px;
     height: 20px;
-    filter: invert(18%) sepia(7%) saturate(713%) hue-rotate(320deg) brightness(94%) contrast(94%);
+    filter: invert(18%) sepia(7%) saturate(713%) hue-rotate(320deg)
+        brightness(94%) contrast(94%);
 }
 
 .ver-card-label {
@@ -538,6 +538,11 @@ div {
 }
 
 /* footer */
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
 
 .icons8-link {
     color: var(--color-neutral-30);
