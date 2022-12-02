@@ -30,10 +30,19 @@
 
 ---
 
-### 실행 방법
+### 설치
 
-1. node server.js 를 터미널에 실행 후 -> 서버 구동. <em>port number = 3000</em>
-2. localhost:3000 으로 url입력
+1. Releases에 있는 배포 버전 중 OS에 맞는 배포 버전 zip 파일 다운로드
+2. zip파일 압축 해제 후 어플리케이션 실행  
+### Windows
+zip 압축 풀기 확장자 실행 후, `e-sports-scheduler.exe` 실행  
+### Linux
+```
+ $ unzip e-sports-scheduler-linux-x64.zip
+ $ cd e-sports-scheduler-linux-x64
+ $ ./e-sports-scheduler
+```
+
 
 <br>
 <br>
