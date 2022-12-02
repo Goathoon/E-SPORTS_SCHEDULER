@@ -319,8 +319,11 @@ div {
     font-size: var(--font-size-label-large);
     line-height: var(--font-height-label-large);
     letter-spacing: 0.1px;
+    color: white;
+}
 
-    color: var(--color-neutral-70);
+.calendar_day-match-list {
+    color: black;
 }
 
 .calendar_day-match-list {
@@ -348,6 +351,7 @@ div {
     border-left: 8px solid #930100;
     background-color: var(--color-white);
     align-items: center;
+    margin: 5px 0 5px 0;
 }
 
 .hor-card-time,

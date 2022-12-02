@@ -36,7 +36,9 @@ loadJson().then((schedules) => {
             const matchContainer = document.createElement("div");
             matchContainer.className = "hor-card-match-container";
             cardChild.append(matchContainer);
-
+            const status = document.createElement("div");
+            status.className = "hor-card-status";
+            cardChild.append(status);
             const teamHome = document.createElement("div");
             teamHome.id = "hor-card-team_1-name"; teamHome.className = "hor-card-name";
             matchContainer.append(teamHome);
@@ -53,6 +55,7 @@ loadJson().then((schedules) => {
 
             const vs = document.createElement("div");
             vs.className = "hor-card-vs";
+            vs.innerHTML = "VS";
             matchContainer.append(vs);
 
             const emblem2 = document.createElement("div");
@@ -72,7 +75,8 @@ loadJson().then((schedules) => {
 
             card.append(cardChild);
             container1.append(card);
-            htmlForDay.append(container1);
+            dayInfo.append(container1);
+            // htmlForDay.append(container1);
             /////////////////////////////////////////////////////// 기본 component 끝
             const daygame = schedules[day]["dayGame"][game];
             // const addFilter = document.createElement("div");
@@ -119,8 +123,8 @@ loadJson().then((schedules) => {
                     teamname_checkbox.id = "add-list-item_LCK";
                     teamname_checkbox.value = teams_sort[i];
 
-                    teamfilter.append(teamname);
                     teamfilter.append(teamname_checkbox);
+                    teamfilter.append(teamname);
                     addFilterteam.append(teamfilter);
                 }
                 //(추가하는 컴포넌트가 렌더링된 상태일 때) addbtn의 이미지를 변경하는 조건문;
@@ -134,11 +138,8 @@ loadJson().then((schedules) => {
                 } else {
                     let filter_arr;
 
-                    const script_tag = document.querySelector("script");
-                    script_tag.insertAdjacentElement(
-                        "beforebegin",
-                        add_container[0]
-                    );
+                    const calendar = document.querySelector(".calendar");
+                    calendar.append(add_container[0]);
                     addbtn.children[0].src = "./asset/remove.svg";
                     const checkboxes = document.getElementsByClassName(
                         "add-list-item-checkbox"
@@ -198,12 +199,13 @@ loadJson().then((schedules) => {
                             tagContainer.append(tagteam);
                             tagContainer.append(tagRemove);
                             tag.append(tagContainer);
-                            addedFilter.append(tag);
+                            // addedFilter.append(tag);
+                            addedFilter.insertBefore(tag, addedFilter.firstChild);
                             tagRemove.addEventListener('click', () => {
                                 tagRemove.parentNode.parentNode.remove();
-                                console.log(tagRemove.previousSibling.innerHTML);
                                 addedTeam.delete(tagRemove.previousSibling.innerHTML);
                                 doFilter(addedTeam);
+
                                 if (addedTeam.length === 0) {
                                     for (let i = 0; i < allgames.length; i += 2) {
                                         allgames[i].parentNode.parentNode.parentNode.parentNode.style.display = 'block';
@@ -251,12 +253,29 @@ function doFilter(set) {
     const allgames = document.getElementsByClassName('hor-card-name');
     for (let i = 0; i < allgames.length; i += 2) {
         allgames[i].parentNode.parentNode.parentNode.parentNode.style.display = 'block';
+        allgames[i].parentNode.parentNode.parentNode.parentNode.parentNode.style.display = 'block';
+
     }
     for (let j = 0; j < filter_arr.length; j++) {
         for (let i = 0; i < allgames.length; i += 2) {
             if (allgames[i].innerHTML !== filter_arr[j] &&
                 allgames[i + 1].innerHTML !== filter_arr[j]) {
                 allgames[i].parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+                let count = allgames[i].parentNode.parentNode.parentNode.parentNode.parentNode.childElementCount;
+                console.log(count);
+                for (let ch = 0; ch < allgames[i].parentNode.parentNode.parentNode.parentNode.parentNode.childElementCount; ch++) {
+                    if (i % 2 === 0) {
+                        if (allgames[i].parentNode.parentNode.parentNode.parentNode.parentNode.children[ch].style.display === "none" ||
+                            allgames[i + 1].parentNode.parentNode.parentNode.parentNode.parentNode.children[ch].style.display === "none") {
+                            count -= 1;
+                        }
+                        if (count === 0) {
+                            allgames[i].parentNode.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+                        }
+
+                    }
+                }
+
             }
         }
     }
