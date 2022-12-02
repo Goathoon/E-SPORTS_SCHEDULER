@@ -1,260 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Componnets</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="banner">
-      <div class="banner-container">
-        <video
-          autoplay="autoplay"
-          loop="loop"
-          preload="auto"
-          class="banner-video"
-        >
-          <source src="./asset/Pexels Videos 2759479.mp4" type="video/mp4" />
-        </video>
-        <div class="banner-title">THE E-SPORTS YOU WANT.</div>
-      </div>
+        <div class="banner-container">
+            <video autoplay="autoplay" loop="loop" preload="auto" class="banner-video">
+                <source src="./asset/Pexels Videos 2759479.mp4" type="video/mp4" />
+            </video>
+            <div class="banner-title">THE E-SPORTS YOU WANT.</div>
+        </div>
     </div>
     <br />
     <div class="mode">
-      <div class="mode-icon-container icon-container">
-        <img class="mode-icon icon" src="./asset/mode_night.svg" alt="icon" />
-      </div>
+        <div class="mode-icon-container icon-container">
+            <img class="mode-icon icon" src="./asset/mode_night.svg" alt="icon" />
+        </div>
     </div>
     <br />
     <div class="tag">
-      <div class="tag-container">
-        <div class="tag-icon-container icon-container">
-          <img
-            src="./asset/mode_night.svg"
-            alt="tag-icon"
-            class="tag-icon icon"
-          />
+        <div class="tag-container">
+            <div class="tag-icon-container icon-container">
+                <img src="./asset/mode_night.svg" alt="tag-icon" class="tag-icon icon" />
+            </div>
+            <div class="tag-label">What team?</div>
+            <div class="tag-remove-container icon-container">
+                <img src="./asset/close.svg" alt="tag-remove" class="tag-remove icon" />
+            </div>
         </div>
-        <div class="tag-label">League of Legends</div>
-        <div class="tag-remove-container icon-container">
-          <img
-            src="./asset/close.svg"
-            alt="tag-remove"
-            class="tag-remove icon"
-          />
-        </div>
-      </div>
     </div>
     <br />
     <div class="hor-card">
-      <div class="hor-card-container">
-        <div class="hor-card-time">09:00-11:00</div>
-        <div class="hor-card-match-container">
-          <div id="hor-card-team_1-name" class="hor-card-name">T1</div>
-          <div
-            id="hor-card-team_1-embelm-container"
-            class="hor-card-embelm-container icon-container"
-          >
-            <img
-              src="./asset/close.svg"
-              alt="hor-card-team_1-embelm"
-              id="hor-card-team_1-embelm"
-              class="hor-card-emblem icon"
-            />
-          </div>
-          <div class="hor-card-vs">VS</div>
-          <div
-            id="hor-card-team_2-emblem-container icon-container"
-            class="hor-card-emblem-container icon-container"
-          >
-            <img
-              src="./asset/close.svg"
-              alt="hor-card-team_2-emblem"
-              id="hor-card-team_2-emblem"
-              class="hor-card-emblem icon"
-            />
-          </div>
-          <div id="hor-card-team_2-name" class="hor-card-name">DRX</div>
+        <div class="hor-card-container">
+            <div class="hor-card-time">09:00-11:00</div>
+            <div class="hor-card-match-container">
+                <div id="hor-card-team_1-name" class="hor-card-name">T1</div>
+                <div id="hor-card-team_1-embelm-container" class="hor-card-embelm-container icon-container">
+                    <img src="./asset/close.svg" alt="hor-card-team_1-embelm" id="hor-card-team_1-embelm"
+                        class="hor-card-emblem icon" />
+                </div>
+                <div class="hor-card-vs">VS</div>
+                <div id="hor-card-team_2-emblem-container icon-container"
+                    class="hor-card-emblem-container icon-container">
+                    <img src="./asset/close.svg" alt="hor-card-team_2-emblem" id="hor-card-team_2-emblem"
+                        class="hor-card-emblem icon" />
+                </div>
+                <div id="hor-card-team_2-name" class="hor-card-name">DRX</div>
+            </div>
+            <div class="hor-card-time">09:00-11:00</div>
         </div>
-        <div class="hor-card-time">09:00-11:00</div>
-      </div>
     </div>
     <br />
     <div class="ver-card">
-      <div class="ver-card-container">
-        <div class="ver-card-match-container">
-          <div id="ver-card-team_1-name" class="ver-card-name">T1</div>
-          <div
-            id="ver-card-team_1-emblem-container"
-            class="ver-card-emblem-container"
-          >
-            <img
-              src="./asset/close.svg"
-              alt="ver-card-team_1-emblem"
-              id="ver-card-team_1-emblem"
-              class="ver-card-emblem icon"
-            />
-          </div>
-          <div class="ver-card-vs">VS</div>
-          <div
-            id="ver-card-team_2-emblem-container"
-            class="ver-card-emblem-container"
-          >
-            <img
-              src="./asset/close.svg"
-              alt="ver-card-team_2-emblem"
-              id="ver-card-team_2-emblem"
-              class="ver-card-emblem icon"
-            />
-          </div>
-          <div id="ver-car d-team_2-name" class="ver-card-name">DRX</div>
+        <div class="ver-card-container">
+            <div class="ver-card-match-container">
+                <div id="ver-card-team_1-name" class="ver-card-name">T1</div>
+                <div id="ver-card-team_1-emblem-container" class="ver-card-emblem-container">
+                    <img src="./asset/close.svg" alt="ver-card-team_1-emblem" id="ver-card-team_1-emblem"
+                        class="ver-card-emblem icon" />
+                </div>
+                <div class="ver-card-vs">VS</div>
+                <div id="ver-card-team_2-emblem-container" class="ver-card-emblem-container">
+                    <img src="./asset/close.svg" alt="ver-card-team_2-emblem" id="ver-card-team_2-emblem"
+                        class="ver-card-emblem icon" />
+                </div>
+                <div id="ver-car d-team_2-name" class="ver-card-name">DRX</div>
+            </div>
+            <div class="ver-card-label">League of Legneds</div>
+            <div class="ver-card-time">
+                11월 5일 (토) <br />
+                09:00 - 11:00
+            </div>
         </div>
-        <div class="ver-card-label">League of Legneds</div>
-        <div class="ver-card-time">
-          11월 5일 (토) <br />
-          09:00 - 11:00
-        </div>
-      </div>
     </div>
     <br />
     <div class="add-list">
-      <div class="add-list-container">
-        <div class="add-list-arrow-container">
-          <img
-            src="./asset/Arrow.svg"
-            alt="add-list-arrow"
-            class="add-list-arrow"
-          />
+        <div class="add-list-container">
+            <div class="add-list-arrow-container">
+                <img src="./asset/Arrow.svg" alt="add-list-arrow" class="add-list-arrow" />
+            </div>
+            <div class="add-list-list-container">
+                <div class="add-list-btn">Add</div>
+                <form class="add-list-list">
+                    <div class="add-list-label">Choose Teams</div>
+                    <!-- <div class="add-list-item">
+                        <label class="add-list-item-text" for="LCK">LCK</label>
+                        <input class="add-list-item-checkbox" type="checkbox" name="championship" id="add-list-item_LCK"
+                            value="LCK" />
+                    </div> -->
+
+                </form>
+            </div>
         </div>
-        <div class="add-list-list-container">
-          <div class="add-list-btn">Add</div>
-          <form class="add-list-list">
-            <div class="add-list-label">League of Legneds</div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-label">League of Legneds</div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-            <div class="add-list-item">
-              <label class="add-list-item-text" for="LCK">LCK</label>
-              <input
-                class="add-list-item-checkbox"
-                type="checkbox"
-                name="championship"
-                id="add-list-item_LCK"
-                value="LCK"
-              />
-            </div>
-          </form>
-        </div>
-      </div>
     </div>
-  </body>
+</body>
+
 </html>
