@@ -140,7 +140,6 @@ SOFTWARE.
 
 ## Resources
 
----
 
 **figma**
 
@@ -155,3 +154,6 @@ SOFTWARE.
 **video**
 
 'Pexels' Licensed under [Pexels License]("https://www.pexels.com/license/")
+
+
+우수 프로젝트 시상 프로그램에 지원합니다
