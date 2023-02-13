@@ -2,6 +2,12 @@
 [유튜브로 보기](https://www.youtube.com/watch?v=AbGDpvCUAVQ)
 링크 주소: https://www.youtube.com/watch?v=AbGDpvCUAVQ
 
+
+- 추가사항 
+cacheable-request depends on http-cache-semantics, which is vulnerable to Regular Expression Denial of Service
+security 문제가 발생하여 package-lock.json 파일의 dependency 수정 / 
+따라서 npm install 명령어로 다시 실행후 버전 업데이트할 것
+
 <br>
 
 ## 목차
